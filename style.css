@@ -1,4 +1,19 @@
 body {
     font-size: 15pt;
-    background-color: navy;
+    background-color: grey
+}
+h1{
+  color: ghostwhite;
+}
+p{
+  color: ghostwhite
+}
+.intro {
+  text-align: center
+}
+h1{
+  text-align: center
+}
+#interested{
+  text-align: right
 }
