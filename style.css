@@ -6,7 +6,8 @@ h1{
   color: ghostwhite;
 }
 p{
-  color: ghostwhite
+  color: ghostwhite;
+  font-family: Verdana;
 }
 .intro {
   text-align: center
@@ -14,6 +15,7 @@ p{
 h1{
   text-align: center
 }
-#interested{
-  text-align: right
+}
+img{
+  border: none
 }
