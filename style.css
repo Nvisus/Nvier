@@ -1,0 +1,151 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+}
+
+#c {
+  width: 0;
+  height: 0;
+}
+
+.main-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+}
+
+.loading-container {
+  position: absolute;
+  margin: 0;
+  width: 560px;
+  height: auto;
+  white-space: nowrap;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.image-container {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90px;
+  border: 2px solid #efefef;
+}
+
+.earth-icon {
+  height: 100%;
+  opacity: 0;
+}
+
+#text {
+  position: relative;
+  margin: 0;
+  margin-top: 30px;
+  font-size: 24px;
+  width: 100%;
+  white-space: nowrap;
+  height: auto;
+  text-align: center;
+  color: darkcyan;
+}
+
+#earth-image {
+  width: 440px;
+  display: block;
+  margin: 0 auto 25px;
+}
+
+#title {
+  color: white;
+  width: 100%;
+  height: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  #earth-image {
+    width: 320px;
+    margin: 0 auto 20px;
+  }
+
+  .loading-container {
+    width: 380px;
+  }
+
+  .image-container {
+    height: 60px;
+  }
+
+  #text {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  #earth-image {
+    width: 200px;
+    margin: 0 auto 15px;
+  }
+
+  .loading-container {
+    width: 260px;
+  }
+
+  .image-container {
+    height: 40px;
+  }
+
+  #text {
+    margin-top: 15px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #earth-image {
+    width: 150px;
+    margin: 0 auto 10px;
+  }
+
+  .loading-container {
+    width: 200px;
+  }
+
+  .image-container {
+    height: 30px;
+  }
+
+  #text {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  #earth-image {
+    width: 100px;
+    margin: 0 auto 5px;
+  }
+
+  .loading-container {
+    width: 140px;
+  }
+
+  .image-container {
+    height: 20px;
+  }
+
+  #text {
+    margin-top: 6px;
+    font-size: 12px;
+  }
+}
